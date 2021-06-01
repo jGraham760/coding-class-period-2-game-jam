@@ -7,6 +7,7 @@
 extents = Vector2( 5.32393, 11.5841 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( 0.370041, 0.629959 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0, 0.0496063 )
@@ -17,3 +18,5 @@ script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
